@@ -1,0 +1,30 @@
+{
+    "name": "tripledotzero/raygun-exception-listener",
+    "description": "This packages uses the Raygun4PHP package. It makes it easier to filter the data that is being send to raygun, making your application GDPR compliant",
+    "keywords": [
+        "raygun",
+        "data filter",
+        "raygun data filter",
+        "raygun data filter",
+        "raygun filter",
+        "gdpr"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [{
+        "name": "Mohamed Eaisaouiyen",
+        "email": "mohamed.eaisaouiyen@gmail.com"
+    }],
+    "require": {
+        "php": "^7.3|^8.0",
+        "mindscape/raygun4php": "^2.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "RaygunFilterParams\\": "src/"
+        }
+    }
+}
